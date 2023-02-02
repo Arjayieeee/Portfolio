@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15ad356e65.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="home"  class="home">
+        <nav>
+            <img src="image/logo.png" class="logo">
+
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#service">SERVICE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+
+            </ul>
+
+        </nav>
+        <div class="headline">
+            <h1>Hi! I'm Arjay</h1>
+            <p> Aspiring <span>Web Designer</span> from Philippines</p>
+
+
+            <div class="socmed">
+                <a href="https://www.facebook.com/profile.php?id=100007270038932">
+                <img src="image/FB.png" class="icon"> </a>
+                <a href=" https://www.instagram.com/arjayieee/">
+                <img src="image/IG.png" class="icon"></a>
+                <a href="https://twitter.com/arjayiee">
+                <img src="image/TR.png" class="icon"></a>
+            </div>
+
+        </div>
+        <div class="picture">
+            <img src="image/picture.png" class="me">
+
+
+
+        </div>
+
+    </div>
+
+    <!-------------------------------------------about-------------------------------------------------->
+
+    <div id="about" class="about" data-aos="fade-right" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="image/aboutme.jpg" class="abtpic">
+                </div>
+
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm a college student at Laguna State Polytechnic University-SPCC currently I'm a 4th year student taking Bachelor of science in Computer science.
+                        I have no work experience right now but I assure that if you hire me at your company i promise that i will do my best that the company won't regret it.
+                        I'm responsible and hardworking to the fact that I finish all task given to me at appointed time.
+                    </p>
+
+                    <div class="tabtitles">
+                        <p class="tablelinks activelink" onclick="opentab('skills')"> Skills</p>
+                        <p class="tablelinks" onclick="opentab('interest')"> Interests</p>
+                        <p class="tablelinks" onclick="opentab('educ')"> Education</p>
+                    </div>
+
+
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interface</li>
+                            <li><span>Graphic Designer</span><br>Creating 3D models</li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="interest">
+                        <ul>
+                            <li><span>Movies</span><br>Hollywood films, K-drama</li>
+                            <li><span>Sports</span><br>Basketball, Volleyball, Badminton</li>
+                            <li><span>Online Games</span><br>Valorant, Mobile Legends, Call of Duty, PUBG</li>
+                            <li><span>Spotify</span><br>OPM songs, International songs</li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="educ">
+                        <ul>
+                            <li><span>Junior High</span><br>Alaminos Integrated National High School</li>
+                            <li><span>Senior High</span><br>Almond Academy Foundation Inc.</li>
+                            <li><span>College</span><br>Laguna State Polytechnic University-SPCC</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+    <!-------------------------------------------service-------------------------------------------------->
+
+    <div id="service" class="service" data-aos="fade-right" data-aos-duration="1000">
+        <div class="container">
+            <h1 class="sub2"> My Services</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Plan, design, and code websites and webpages using a contemporary and artistic style.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-fill-drip"></i>
+                    <h2> UI/UX Design </h2>
+                    <p>Designing with an emphasis on producing simple, beautiful, and practical layouts</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>  Graphic Designer</h2>
+                    <p>Design creative content for online campaigns, print ads, websites, and even videos.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+<!-------------------------------------------contact-------------------------------------------------->
+
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contleft">
+                <h1 class="contme">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>federioarjay16@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>09103132393</p>
+                <div class="socicon">
+                <a href="https://www.facebook.com/profile.php?id=100007270038932"><i class="fa-brands fa-facebook"></i> </a>
+                <a href=" https://www.instagram.com/arjayieee/"><i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://twitter.com/arjayiee"><i class="fa-brands fa-twitter"></i> </a>
+                 </div>
+                 
+            </div>
+         
+            <div class="contright">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message Here"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <h5> © Copryright 2023.All Rights Reserved. Arjay Federio</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tablelinks")
+        var tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("activelink");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+
+                event.currentTarget.classList.add("activelink");
+                document.getElementById(tabname).classList.add("activetab");
+
+
+            }
+        }
+</script>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
